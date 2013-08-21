@@ -13,4 +13,7 @@ from: http://www.funonrails.com/2012/02/ruby-enumerable-toproc-ampersond-colon.h
 
 &: is a shortcut to passing a block to an enumerator....not sure what this means.
 
+new solution found: items.select(&:even?).first
+
+like that a bit better since I somewhat understand it
 
