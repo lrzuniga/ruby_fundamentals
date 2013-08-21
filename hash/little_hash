@@ -1,0 +1,11 @@
+Solution:
+hash.key (hash.values.min_by {|x| x})
+
+#hash.key calls a key with index (hash.values.min_by {|x| x})
+#(hash.values.min_by) returns the lowest value of the hash, then enumerates without any function/method
+
+
+first try was: hash.min_by {|v| v.last } 
+it returns the key and value, but the solution only requires the key
+
+
